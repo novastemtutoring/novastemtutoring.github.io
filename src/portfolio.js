@@ -228,6 +228,12 @@ const covid = {
     "virtual solution in these difficult times!"
 }
 
+const aboutMe = {
+  title: "About me",
+  subTitle: "Why do I tutor?",
+  text: "After graduating from UVA and giving birth to my now eight month old son, I wanted to do two things: " + 
+  "stay at home with my son, while still talking to people about physics! Tutoring is the best of both worlds!"
+}
 
 export {
   greeting,
@@ -238,6 +244,7 @@ export {
   // openSource,
   bigProjects,
   achievementSection,
+  aboutMe,
   covid,
   contactInfo,
 };
