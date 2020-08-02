@@ -11,3 +11,6 @@ build/
 doc/api/
 node_modules
 node_modules
+
+# Github token
+.env
