@@ -1,6 +1,5 @@
 ﻿import React from "react";
 import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
@@ -20,11 +19,14 @@ export default function Greeting() {
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
-              <SocialMedia />
+              {/* <SocialMedia /> */}
               <div className="button-greeting-div">
-                <Button text="Coronavirus information" href="#covid" />
-                <Button text="Contact Me" href="#contact" />
-                <Button text="My Academic Creds" newTab={true} href={greeting.resumeLink} />
+                <li>
+                  <Button text="Coronavirus information" href="#covid" />
+                </li><li>
+                  <Button text="Contact Me" href="#contact" /></li>
+                <li><Button text="My Academic Creds" newTab={true} href={greeting.resumeLink} />
+                </li>
               </div>
             </div>
           </div>

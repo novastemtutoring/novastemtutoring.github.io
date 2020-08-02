@@ -7,8 +7,8 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Northern Virginia STEM Tutoring",
-  title: "Welcome!",
+  username: "NVST",
+  title: "Welcome to Northern Virginia STEM Tutoring!",
   subTitle: "I am a tutor located in the Northern Virginia area. I specialize in physics and mathematics courses for undergraduate and advanced high school students",
   resumeLink: "https://jmhays.github.io/cv"
 };
@@ -180,7 +180,7 @@ const achievementSection = {
     {
       title: "IDEAS Lab: Teaching Assistant",
       subtitle: "Supervised laboratory work of undergraduate biomedical engineering students.",
-      image: require("./assets/images/ideaslab.jpg"),
+      image: require("./assets/images/ideaslab.png"),
       footerLink: [
 
         { name: "Independently developed a course website to help students with scientific writing", url: "https://ideaslab2018.wordpress.com/" }
