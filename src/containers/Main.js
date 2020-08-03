@@ -3,7 +3,7 @@ import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import WhatITeach from "./whatITeach/whatITeach";
 import Expertise from "./expertise/expertise";
-import WorkExperience from "./workExperience/WorkExperience";
+import Education from "./education/education";
 import StartupProject from "./StartupProjects/StartupProject";
 import TeachingCard from "./teachingExperience/teachingExperience";
 import AboutMe from "./aboutMe/aboutMe";
@@ -20,7 +20,7 @@ export default class Main extends Component {
         <Greeting />
         <WhatITeach />
         <Expertise />
-        <WorkExperience />
+        <Education />
         <TeachingCard />
         <StartupProject />
         <AboutMe />

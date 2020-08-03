@@ -1,11 +1,11 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import { greeting, workExperiences } from "../../portfolio";
+import { greeting, education } from "../../portfolio";
 import reactEasyEmoji from "react-easy-emoji";
 
 function Header() {
-  const exp = workExperiences.viewExperiences;
+  const exp = education.viewExperiences;
   return (
     <Headroom>
       <header className="header">
@@ -23,11 +23,11 @@ function Header() {
           </li>
           {exp === true &&
             <li>
-              <a href="#experience">My Education</a>
+              <a href="#education">My Education</a>
             </li>
           }
           <li>
-            <a href="#achievements">Teaching Experience</a>
+            <a href="#teachingExperience">Teaching Experience</a>
           </li>
  
           <li>

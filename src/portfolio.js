@@ -108,8 +108,8 @@ const expertise = {
 
 // Your top 3 work experiences
 
-const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+const education = {
+  viewExperiences: true, //Set it to true to show education Section
   experience: [
     {
       role: "Ph.D Biomedical Engineering",
@@ -238,8 +238,7 @@ export {
   socialMediaLinks,
   whatITeach,
   expertise,
-  workExperiences,
-  // openSource,
+  education,
   bigProjects,
   teachingExperience,
   aboutMe,

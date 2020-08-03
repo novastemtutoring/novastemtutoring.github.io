@@ -1,8 +1,8 @@
 import React, { useState, useEffect, createRef } from "react";
-import "./ExperienceCard.css";
+import "./educationCard.css";
 import ColorThief from "colorthief";
 
-export default function ExperienceCard({ cardInfo }) {
+export default function EducationCard({ cardInfo }) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
