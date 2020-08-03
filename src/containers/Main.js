@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import WhatITeach from "./whatITeach/whatITeach";
-import StackProgress from "./skillProgress/skillProgress";
+import Expertise from "./expertise/expertise";
 import WorkExperience from "./workExperience/WorkExperience";
 import StartupProject from "./StartupProjects/StartupProject";
 import TeachingCard from "./teachingExperience/teachingExperience";
@@ -19,7 +19,7 @@ export default class Main extends Component {
         <Header />
         <Greeting />
         <WhatITeach />
-        <StackProgress />
+        <Expertise />
         <WorkExperience />
         <TeachingCard />
         <StartupProject />

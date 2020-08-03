@@ -1,17 +1,17 @@
 import React from "react";
 import "./Progress.css";
-import { techStack } from "../../portfolio";
+import { expertise } from "../../portfolio";
 import { Fade } from "react-reveal";
 
-export default function StackProgress() {
-    if(techStack.viewSkillBars){
+export default function Expertise() {
+    if(expertise.viewSkillBars){
         return (
             <Fade bottom duration={1000} distance="20px">
             <div className="skills-container">
 
                 <div className="skills-bar">
                     <h1 className="skills-heading">Expertise</h1>
-                    {techStack.experience.map((exp) => {
+                    {expertise.experience.map((exp) => {
                         const progressStyle = {
                             width: exp.progressPercentage
                         };

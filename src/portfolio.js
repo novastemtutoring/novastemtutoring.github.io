@@ -58,9 +58,7 @@ const whatITeach = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
+const expertise = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
@@ -239,7 +237,7 @@ export {
   greeting,
   socialMediaLinks,
   whatITeach,
-  techStack,
+  expertise,
   workExperiences,
   // openSource,
   bigProjects,
