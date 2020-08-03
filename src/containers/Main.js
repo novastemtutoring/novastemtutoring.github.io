@@ -4,7 +4,7 @@ import Greeting from "./greeting/Greeting";
 import WhatITeach from "./whatITeach/whatITeach";
 import Expertise from "./expertise/expertise";
 import Education from "./education/education";
-import StartupProject from "./StartupProjects/StartupProject";
+import Pricing from "./pricing/pricing";
 import TeachingCard from "./teachingExperience/teachingExperience";
 import AboutMe from "./aboutMe/aboutMe";
 import Contact from "./contact/Contact";
@@ -22,7 +22,7 @@ export default class Main extends Component {
         <Expertise />
         <Education />
         <TeachingCard />
-        <StartupProject />
+        <Pricing />
         <AboutMe />
         <Contact />
         <CovidInformation />

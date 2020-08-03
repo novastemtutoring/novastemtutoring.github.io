@@ -142,24 +142,11 @@ const education = {
   ]
 };
 
-// /* Your Open Source Section to View Your Github Pinned Projects
-// To know how to get github key look at readme.md */
-
-// const openSource = {
-//   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-//   githubUserName: "jmhays", // Change to your github username to view your profile in Contact Section.
-//   showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
-// };
-
-
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
+const pricing = {
   title: "Pricing",
-  subtitle: "Hourly rates are determined on a case-by-case basis. Please contact me to set up a free 15 minute consultation!",
+  subtitle: "Hourly rates are determined on a case-by-case basis. " + 
+  "Please contact me to set up a consultation!",
 };
-
-// Your Achievement Section Include Your Certification Talks and More
 
 const teachingExperience = {
 
@@ -239,7 +226,7 @@ export {
   whatITeach,
   expertise,
   education,
-  bigProjects,
+  pricing,
   teachingExperience,
   aboutMe,
   covid,
