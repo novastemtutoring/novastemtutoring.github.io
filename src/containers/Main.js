@@ -5,7 +5,7 @@ import WhatITeach from "./whatITeach/whatITeach";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import StartupProject from "./StartupProjects/StartupProject";
-import Achievement from "./achievement/Achievement";
+import TeachingCard from "./teachingExperience/teachingExperience";
 import AboutMe from "./aboutMe/aboutMe";
 import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
@@ -21,7 +21,7 @@ export default class Main extends Component {
         <WhatITeach />
         <StackProgress />
         <WorkExperience />
-        <Achievement />
+        <TeachingCard />
         <StartupProject />
         <AboutMe />
         <Contact />

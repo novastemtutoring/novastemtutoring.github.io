@@ -163,12 +163,12 @@ const bigProjects = {
 
 // Your Achievement Section Include Your Certification Talks and More
 
-const achievementSection = {
+const teachingExperience = {
 
   title: emoji("Teaching Experience"),
   subtitle: "",
 
-  achivementsCards: [
+  teachingCards: [
     {
       title: "Biophysical Principles Co-Instructor",
       subtitle: "Designed and taught curriculum on intro thermodynamics and statistical mechanics for first graduate students",
@@ -243,7 +243,7 @@ export {
   workExperiences,
   // openSource,
   bigProjects,
-  achievementSection,
+  teachingExperience,
   aboutMe,
   covid,
   contactInfo,
