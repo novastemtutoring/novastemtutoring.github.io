@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5884265.chunk.css",
-    "main.js": "/static/js/main.4dfddafe.chunk.js",
-    "main.js.map": "/static/js/main.4dfddafe.chunk.js.map",
+    "main.css": "/static/css/main.0faa4cfb.chunk.css",
+    "main.js": "/static/js/main.8b531f60.chunk.js",
+    "main.js.map": "/static/js/main.8b531f60.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.75446d84.js",
     "runtime-main.js.map": "/static/js/runtime-main.75446d84.js.map",
-    "static/js/2.9e98b5a7.chunk.js": "/static/js/2.9e98b5a7.chunk.js",
-    "static/js/2.9e98b5a7.chunk.js.map": "/static/js/2.9e98b5a7.chunk.js.map",
+    "static/js/2.7e129bd1.chunk.js": "/static/js/2.7e129bd1.chunk.js",
+    "static/js/2.7e129bd1.chunk.js.map": "/static/js/2.7e129bd1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.574ba160c1c5b1baa0218be50262f9d5.js": "/precache-manifest.574ba160c1c5b1baa0218be50262f9d5.js",
+    "precache-manifest.2b2085a40119b882884ad8d9cc753dac.js": "/precache-manifest.2b2085a40119b882884ad8d9cc753dac.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c5884265.chunk.css.map": "/static/css/main.c5884265.chunk.css.map",
-    "static/js/2.9e98b5a7.chunk.js.LICENSE.txt": "/static/js/2.9e98b5a7.chunk.js.LICENSE.txt",
+    "static/css/main.0faa4cfb.chunk.css.map": "/static/css/main.0faa4cfb.chunk.css.map",
+    "static/js/2.7e129bd1.chunk.js.LICENSE.txt": "/static/js/2.7e129bd1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/atom.png": "/static/media/atom.b138261a.png",
     "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.75446d84.js",
-    "static/js/2.9e98b5a7.chunk.js",
-    "static/css/main.c5884265.chunk.css",
-    "static/js/main.4dfddafe.chunk.js"
+    "static/js/2.7e129bd1.chunk.js",
+    "static/css/main.0faa4cfb.chunk.css",
+    "static/js/main.8b531f60.chunk.js"
   ]
 }
