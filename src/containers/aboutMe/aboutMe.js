@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import "./aboutMe.css";
 import { aboutMe } from "../../portfolio";
 import { Fade } from "react-reveal";
