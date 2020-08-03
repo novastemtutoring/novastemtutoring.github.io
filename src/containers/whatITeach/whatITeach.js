@@ -1,11 +1,11 @@
 import React from "react";
-import "./Skills.css";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skillsSection } from "../../portfolio";
+import "./whatITeach.css";
+import SubjectsSummary from "../../components/subjectsSummary/subjectsSummary";
+import { whatITeach } from "../../portfolio";
 import {Fade} from "react-reveal";
-import {PricingTable, PricingSlot, PricingDetail} from 'react-pricing-table';
+// import {PricingTable, PricingSlot, PricingDetail} from 'react-pricing-table';
 
-export default function Skills() {
+export default function WhatITeach() {
   return (
     <div className="main" id="skills">
       <div className="skills-main-div">
@@ -16,11 +16,11 @@ export default function Skills() {
         </Fade>
         <Fade right duration={1000}>
         <div className="skills-text-div">
-          <h1 className="skills-heading">{skillsSection.title} </h1>
-          <p className="subTitle skills-text-subtitle">{skillsSection.subTitle}</p>
-          <SoftwareSkill />
+          <h1 className="skills-heading">{whatITeach.title} </h1>
+          <p className="subTitle skills-text-subtitle">{whatITeach.subTitle}</p>
+          <SubjectsSummary />
           <div>
-            {skillsSection.skills.map(skills => {
+            {whatITeach.subjects.map(skills => {
               return <p className="subTitle skills-text">{skills}</p>;
             })}
           </div>

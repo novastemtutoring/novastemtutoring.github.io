@@ -1,13 +1,13 @@
 import React from "react";
-import "./SoftwareSkill.css";
-import { skillsSection } from "../../portfolio";
+import "./subjectsSummary.css";
+import { whatITeach } from "../../portfolio";
 
-export default function SoftwareSkill() {
+export default function SubjectsSummary() {
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map(skills => {
+          {whatITeach.subjectsSummary.map(skills => {
             return (
               <li className="software-skill-inline" name={skills.skillName}>
                 <i className={skills.fontAwesomeClassname}></i>

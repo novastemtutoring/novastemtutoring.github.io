@@ -24,10 +24,10 @@ const socialMediaLinks = {
 
 // Your Skills Section
 
-const skillsSection = {
+const whatITeach = {
   title: "What I Teach",
   subTitle: "",
-  skills: [
+  subjects: [
     "introductory physics and mathematics courses including:",
     emoji("⚡ AP calculus/ first year undergraduate calculus"),
     emoji("⚡ AP physics/ first year physics (with calculus)"),
@@ -42,7 +42,7 @@ const skillsSection = {
   /* Make Sure You include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+  subjectsSummary: [
     {
       skillName: "physics",
       fontAwesomeClassname: "fas fa-atom"
@@ -231,14 +231,14 @@ const covid = {
 const aboutMe = {
   title: "About me",
   subTitle: "Why do I tutor?",
-  text: "After graduating from UVA and giving birth to my now eight month old son, I wanted to do two things: " + 
-  "stay at home with my son, while still talking to people about physics! Tutoring is the best of both worlds!"
+  text: "After graduating from UVA and giving birth to my now eight month old son, I wanted to do two things: " +
+    "stay at home with my son, while still talking to people about physics! Tutoring is the best of both worlds!"
 }
 
 export {
   greeting,
   socialMediaLinks,
-  skillsSection,
+  whatITeach,
   techStack,
   workExperiences,
   // openSource,
