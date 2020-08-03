@@ -1,104 +1,44 @@
-.main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-}
-.about-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
-
-.aboutMe-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-}
-
-.aboutMe-main {
+.startup-projects-main {
   display: flex;
 }
 
-.aboutMe-main > * {
+.startup-projects-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
-.button-aboutMe-div {
-  display: flex;
-  margin-top: 20px;
-}
 
-.aboutMe-text {
-  font-size: 70px;
-  line-height: 1.1;
-}
-
-.aboutMe-text-p {
-  font-size: 30px;
-  line-height: 40px;
-}
-
-.aboutMe-image-div > img {
+.starup-project-image > img {
   max-width: 100%;
   height: auto;
 }
-.wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
-  display: inline-block;
-  transform-origin: 70% 70%;
+
+.project-card-head {
+  color: rgb(36, 41, 46);
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0px;
 }
 
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+.startup-project-text {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .aboutMe-text {
-    font-size: 50px;
-  }
-  .aboutMe-text-p {
-    font-size: 20px;
-  }
+.project-card-description {
+  color: rgb(88, 96, 105);
 }
+.saaya-health-div,
+.nextu-div {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
-  .button-aboutMe-div {
-    justify-content: space-around;
+  .starup-project-image {
+    display: none;
   }
-  .aboutMe-text {
-    font-size: 30px;
-    text-align: center;
-  }
-  .aboutMe-text-p {
+  .project-subtitle{
     font-size: 16px;
-    line-height: normal;
     text-align: center;
-  }
-  .aboutMe-main {
-    display: block;
   }
 }

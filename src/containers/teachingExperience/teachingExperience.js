@@ -11,7 +11,7 @@ export default function TeachingExperience() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-    <div className="main" id="achievements">
+    <div className="main" id="teachingExperience">
       <div className="achievement-main-div">
         <div className="achievement-header">
           <h1 className="heading achievement-heading">{teachingExperience.title}</h1>

@@ -12,14 +12,14 @@ function Header() {
         <a href="" className="logo">
           <span className="grey-color">{reactEasyEmoji("🧮")}</span>
           <span className="logo-name">{greeting.username}</span>
-          </a>
+        </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
         <ul className="menu">
           <li>
-            <a href="#skills">Subjects</a>
+            <a href="#whatITeach">What I Teach</a>
           </li>
           {exp === true &&
             <li>
@@ -29,11 +29,14 @@ function Header() {
           <li>
             <a href="#teachingExperience">Teaching Experience</a>
           </li>
- 
+
           <li>
             <a href="#projects">Pricing</a>
           </li>
 
+          <li>
+            <a href="#aboutMe">About Me</a>
+          </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>

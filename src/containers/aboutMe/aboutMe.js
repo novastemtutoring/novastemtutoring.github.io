@@ -1,24 +1,16 @@
-﻿import React from "react";
+import React from "react";
 import "./aboutMe.css";
 import { aboutMe } from "../../portfolio";
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
 
 export default function AboutMe() {
   return (
-    <Fade bottom duration={1000} distance="40px">
-      <div className="corona-main" id="aboutMe">
-        <div className="aboutMe-main">
-          <div className="aboutMe-text-div">
-            <div>
-              <h1 className="aboutMe-text">
-                {aboutMe.title}
-                <span className="wave-emoji">{}</span>
-              </h1>
-              <p className="aboutMe-text-p subTitle">{aboutMe.subTitle}</p>
-              <p className="aboutMe-text-p">{aboutMe.text}</p>
-            </div>
-          </div>
+    <Fade bottom duration={1000} distance="20px">
+      <div className="main" id="aboutMe">
+        <div>
+          <h1 className="skills-heading">{aboutMe.title}</h1>
+          <p className="subTitle project-subtitle">{aboutMe.subtitle}</p>
+          <p className="project-text">{aboutMe.text}</p>
         </div>
       </div>
     </Fade>

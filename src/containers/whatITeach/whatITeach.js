@@ -7,7 +7,7 @@ import {Fade} from "react-reveal";
 
 export default function WhatITeach() {
   return (
-    <div className="main" id="skills">
+    <div className="main" id="whatITeach">
       <div className="skills-main-div">
         <Fade left duration={1000}>
         <div className="skills-image-div">
