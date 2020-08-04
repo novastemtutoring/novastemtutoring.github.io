@@ -23,15 +23,6 @@ export default function socialMedia() {
         :
         null}
 
-      {socialMediaLinks.squarespace ?
-        (<a href={socialMediaLinks.squarespace} className="icon-button squarespace" target="_blank">
-          <i className="fab fa-squarespace"></i>
-          <span></span>
-        </a>)
-        :
-        null}
-
-
       {/* {socialMediaLinks.github ?
         (<a href={socialMediaLinks.github} className="icon-button github" target="_blank">
           <i className="fab fa-github"></i>
