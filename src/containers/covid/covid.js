@@ -1,6 +1,5 @@
 ﻿import React from "react";
 import "./covid.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { covid } from "../../portfolio";
 import { Fade } from "react-reveal";
@@ -23,7 +22,8 @@ export default function CovidInformation() {
               <p className="covid-text-p">{covid.text}</p>
               <div className="button-covid-div">
                 <Button text="Google Meet" href="https://meet.google.com/" />
-                <Button text="Jamboard" newTab={true} href="https://edu.google.com/products/jamboard/?modal_active=none"/>
+                <Button text="Jamboard" newTab={true} href="https://edu.google.com/products/jamboard/?modal_active=none" />
+                <Button text="Google Classroom" newTab={true} href="https://edu.google.com/products/classroom/?modal_active=none" />
               </div>
             </div>
           </div>

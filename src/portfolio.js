@@ -17,8 +17,10 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://jmhays.github.io",
+  // github: "https://jmhays.github.io",
+  phone: "2095920152",
   gmail: "northernvirginiastemtutoring@gmail.com",
+  squarespace: "https://square.site/book/LCQF14AG34V76/nova-stem-tutoring-chantilly-va"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -144,8 +146,8 @@ const education = {
 
 const pricing = {
   title: "Pricing",
-  subtitle: "Hourly rates are determined on a case-by-case basis. " + 
-  "Please contact me to set up a consultation!",
+  subtitle: "Hourly rates are determined on a case-by-case basis. " +
+    "Please contact me to set up a consultation!",
 };
 
 const teachingExperience = {
@@ -199,8 +201,8 @@ const teachingExperience = {
 
 const contactInfo = {
   title: emoji("Contact"),
-  subtitle: "Set up a consultation or tutoring session today!",
-  number: "",
+  subtitle: "Set up a consultation or tutoring session today! Book appointments by phone, email, or Square",
+  number: "(209) 592-0152",
   email_address: "novastemtutoring@gmail.com"
 };
 
@@ -209,7 +211,7 @@ const covid = {
   subTitle: "ALL TUTORING WILL REMAIN VIRTUAL UNTIL FURTHER NOTICE",
   text: "I am very familiar with online learning and presentation platforms! Throughout my graduate studies, " +
     " I worked extensively with scientists all over the world, including people based in Sweden, Japan, and Turkey." +
-    " While Google Meet is my preffered platform (coupled with Jamboard), I am also familiar with Zoom and Skype. We can certainly find a " +
+    " While Google Meet is my preffered platform (coupled with Jamboard and Google Classroom), I am also familiar with Zoom and Skype. We can certainly find a " +
     "virtual solution in these difficult times!"
 }
 

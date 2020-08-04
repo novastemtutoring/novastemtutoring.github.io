@@ -37,6 +37,10 @@
   background-color: #333;
 }
 
+.squarespace i {
+background-color: blueviolet;
+}
+
 .gitlab i {
   background-color: #fca326;
 }
@@ -51,6 +55,10 @@
 
 .instagram i {
   background-color: #c13584;
+}
+
+.phone i {
+  background-color: cornflowerblue;
 }
 
 /* Hover Transition */
