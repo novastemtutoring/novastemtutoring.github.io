@@ -8,7 +8,7 @@ export default function socialMedia() {
     <div className="social-media-div">
 
       {socialMediaLinks.phone ?
-        (<a href={socialMediaLinks.phone} className="icon-button phone" target="_blank">
+        (<a href={`tel:${socialMediaLinks.phone}`} className="icon-button phone" target="_blank">
           <i className="fas fa-phone"></i>
           <span></span>
         </a>)
