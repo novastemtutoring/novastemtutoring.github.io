@@ -203,7 +203,7 @@ const contactInfo = {
   title: emoji("Contact"),
   subtitle: "Set up a consultation or tutoring session today! Book appointments by phone or email",
   number: "(209) 592-0152",
-  email_address: "novastemtutoring@gmail.com"
+  email_address: "drhays@novastemtutoring.com"
 };
 
 const covid = {
