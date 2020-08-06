@@ -10,8 +10,8 @@ function Header() {
     <Headroom>
       <header className="header">
         <a href="" className="logo">
-          <span className="grey-color">{reactEasyEmoji("🧮")}</span>
-          <span className="logo-name">{greeting.username}</span>
+          <span className="grey-color">{reactEasyEmoji("⚛️")}</span>
+          <span className="logo-name">NVST</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
