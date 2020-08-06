@@ -21,9 +21,12 @@ export default function Contact() {
                             <br /><br />
                             <SocialMedia />
                         </div>
-                    </div>
+                        <p className="subTitle contact-subtitle">New to NoVA STEM? Let's set up a consultation! </p>
+
+                        <p align="center"> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCs-LBDdpXNDuLnj0iTrq6uQ36fTPh1Ku8zBpWKyNiedY41Q/viewform?embedded=true" width="640" height="1752" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </p></div>
                 </div>
             </div>
-        </Fade>
+        </Fade >
     );
 }
