@@ -28,10 +28,6 @@
 .project-card-description {
   color: rgb(88, 96, 105);
 }
-.saaya-health-div,
-.nextu-div {
-  cursor: pointer;
-}
 
 @media (max-width: 768px) {
   .starup-project-image {

@@ -201,9 +201,10 @@ const teachingExperience = {
 
 const contactInfo = {
   title: emoji("Contact"),
-  subtitle: "Set up a consultation or tutoring session today! Book appointments by phone or email",
+  subtitle: "Book appointments by phone or email",
   number: "(209) 592-0152",
-  email_address: "drhays@novastemtutoring.com"
+  email_address: "drhays@novastemtutoring.com",
+  newtous: "Set up a free 20 minute consultation today! Fill out the questionnaire and I will get back to you shortly"
 };
 
 const covid = {

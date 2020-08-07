@@ -21,10 +21,12 @@ export default function CovidInformation() {
               <p className="covid-text-p subTitle">{covid.subTitle}</p>
               <p className="covid-text-p">{covid.text}</p>
               <div className="button-covid-div">
-                <Button text="Google Meet" href="https://meet.google.com/" />
-                <Button text="Jamboard" newTab={true} href="https://edu.google.com/products/jamboard/?modal_active=none" />
-                <Button text="Google Classroom" newTab={true} href="https://edu.google.com/products/classroom/?modal_active=none" />
-              </div>
+                <li>
+                  <Button text="Google Meet" href="https://meet.google.com/" />
+                </li>
+                <li><Button text="Jamboard" newTab={true} href="https://edu.google.com/products/jamboard/?modal_active=none" />
+                </li><li><Button text="Google Classroom" newTab={true} href="https://edu.google.com/products/classroom/?modal_active=none" />
+                </li></div>
             </div>
           </div>
         </div>
