@@ -20,7 +20,10 @@ const socialMediaLinks = {
   // github: "https://jmhays.github.io",
   phone: "2095920152",
   gmail: "northernvirginiastemtutoring@gmail.com",
-  squarespace: "https://square.site/book/LCQF14AG34V76/nova-stem-tutoring-chantilly-va"
+  squarespace: "https://square.site/book/LCQF14AG34V76/nova-stem-tutoring-chantilly-va",
+  facebook: "https://www.facebook.com/novastemtutoring",
+  twitter: "https://twitter.com/novastemtutor",
+  yelp: "https://www.yelp.com/biz/nova-stem-tutoring-south-riding"
   // Instagram and Twitter are also supported in the links!
 };
 

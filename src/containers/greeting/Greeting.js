@@ -1,6 +1,7 @@
 ﻿import React from "react";
 import "./Greeting.css";
 import Button from "../../components/button/Button";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
@@ -19,7 +20,7 @@ export default function Greeting() {
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
-              {/* <SocialMedia /> */}
+              <SocialMedia />
               <div className="button-greeting-div">
                 <li>
                   <Button text="Coronavirus information" href="#covid" />

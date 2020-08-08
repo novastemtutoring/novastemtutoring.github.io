@@ -38,7 +38,7 @@
 }
 
 .squarespace i {
-background-color: blueviolet;
+  background-color: blueviolet;
 }
 
 .gitlab i {
@@ -46,7 +46,7 @@ background-color: blueviolet;
 }
 
 .google i {
-  background-color: #ea4335;
+  background-color: purple;
 }
 
 .twitter i {
@@ -58,22 +58,22 @@ background-color: blueviolet;
 }
 
 .phone i {
-  background-color: cornflowerblue;
+  background-color: green;
+}
+
+.yelp i {
+  background-color: red;
 }
 
 /* Hover Transition */
-.twitter i:hover,
-.google i:hover,
-.gitlab i:hover,
-.github i:hover,
-.linkedin i:hover,
-.facebook i:hover,
-.instagram i:hover {
+
+.twitter i:hover, .google i:hover, .gitlab i:hover, .github i:hover, .linkedin i:hover, .facebook i:hover, .instagram i:hover, .phone i:hover, .yelp i:hover {
   background-color: black;
   transition: 0.3s ease-in;
 }
 
 /* Media Query */
+
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;

@@ -72,6 +72,15 @@ export default function SocialMedia() {
         </a>
         :
         null}
+      
+      {socialMediaLinks.yelp ?
+        <a href={socialMediaLinks.yelp} className="icon-button yelp" target="_blank">
+          <i className="fab fa-yelp"></i>
+          <span></span>
+        </a>
+        :
+        null}
+
 
     </div>
   );
